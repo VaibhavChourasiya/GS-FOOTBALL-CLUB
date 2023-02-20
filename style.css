@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(65, 60, 60);
+    height: 50px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    padding: 1px;
+}
+
+.img1 {
+    background-color: brown;
+    height: 350px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.img2 {
+    background-color: rgb(43, 12, 116);
+    height: 350px;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    border-style: ridge;
+    border-radius: 35%;
+    height: 346px;
+    width: 400px;
+}
+
+.fright {
+    float: right;
+}
+
+.fleft {
+    float: left;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+footer p {
+    padding: 10px;
+}
